@@ -3,7 +3,6 @@ require 'spec_helper'
 describe 'total_gross' do
   it 'correctly totals the total gross' do
     expect(total_gross(directors_database)).to eq(10355501925)
-  end
 end
 
 describe 'list of directors' do
